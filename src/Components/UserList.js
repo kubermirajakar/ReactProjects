@@ -5,10 +5,10 @@ export default function UserList({ userInput }) {
     <div className={classes.container}>
       {userInput.map((user) => {
         return (
-          <>
+          <span>
             <h1>{user.username} - </h1>
             <h1> {user.comments}</h1>
-          </>
+          </span>
         );
       })}
     </div>
